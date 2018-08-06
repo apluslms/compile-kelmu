@@ -1,0 +1,15 @@
+destination: annotations.js
+template: template.js
+placeholder: "@@ANNOTATIONS@@"
+line_template: "{prefix}data['{name}'] = {data};\n"
+
+default_test: "*.annotation.json"
+
+packages_dir: /opt/kelmu/
+
+copy:
+  - source: /opt/kelmu/
+    files:
+      - kelmu.js
+      - kelmu.editor.js
+      - kelmu.css
