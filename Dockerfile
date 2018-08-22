@@ -1,6 +1,6 @@
 FROM apluslms/compile-jsvee:0.4
 
-ARG VERSION=d9131fa22e041a02fafc0e65e13df03be3e6825b
+ARG VERSION=72783b050e4e9f9b0ce2f919764ca3de44b04848
 ARG DIR=kelmu-$VERSION
 
 RUN mkdir -p /work/ /opt/kelmu/ && cd /opt/kelmu/ \
