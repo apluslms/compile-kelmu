@@ -1,4 +1,4 @@
-FROM apluslms/compile-jsvee:0.8
+FROM apluslms/compile-jsvee:0.9
 
 ARG VERSION=4ee2f8785e698115ed22796d3d40e4b16f9e2473
 ARG DIR=kelmu-$VERSION
